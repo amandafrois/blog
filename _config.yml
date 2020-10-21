@@ -13,8 +13,8 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://amandafrois.com.br/blog
-root: /blog/
+url: 'https://amandafrois.com.br'
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -100,12 +100,10 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: Anisina
 
-
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/amandafrois/blog
+  repo: 'https://github.com/amandafrois/blog'
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
